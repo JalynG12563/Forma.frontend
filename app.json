@@ -38,7 +38,19 @@
             "backgroundColor": "#000000"
           }
         }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow forma_app to access your camera",
+          "microphonePermission": "Allow forma_app to access your microphone"
+        }
       ]
+    ],
+    "permissions": [
+      "camera",
+      "microphone",
+      "photo"
     ],
     "experiments": {
       "typedRoutes": true,
